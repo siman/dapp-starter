@@ -1,0 +1,157 @@
+/*html, body {
+    background-color: #e9ebee;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 20px;
+}
+html, body, #app {
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.15;
+}
+th {
+    vertical-align: top !important;
+}
+td {
+    white-space: nowrap;
+}
+*/
+
+body {
+    background-color: #eaeaea;
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+a {
+    /*color: #00bb55;*/
+}
+a:hover {
+    /*color: #009045;*/
+    text-decoration: underline;
+}
+
+.navbar-fixed-top {
+    -moz-box-shadow: 0 1px 12px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 12px 0 rgba(0,0,0,.1);
+    -o-box-shadow: 0 1px 12px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,.1);
+}
+.navbar-brand {
+    color: #10ad4f;
+    font-weight: bold;
+}
+
+.checkbox, .radio {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.WaitLoading {
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.SelectedRow td {
+    background-color: #faebcc;
+}
+
+.StatusOk {
+    color: #3c763d;
+    font-weight: bold;
+}
+.StatusWarn {
+    color: #d96c0e;
+    font-weight: bold;
+}
+.StatusWait {
+    color: #999;
+    font-weight: bold;
+}
+
+.HintText {
+    /*font-size: 0.75rem;*/
+    color: #777;
+}
+
+.MainContent,
+.Whitelist {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.ExternalSales {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.WarnNoWallet {
+    color: red;
+}
+
+.MainContent h1 {
+    text-align: center;
+    color: #888;
+    margin: 20px;
+}
+
+.CsvInput {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+}
+
+.TxTable {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 0.85rem;
+    background-color: #fff;
+}
+.TxTable .btn {
+    font-size: 0.85rem !important;
+    margin-right: 5px;
+}
+.TxTable th {
+    text-align: center;
+    font-weight: 600;
+}
+.TxTable .date,
+.TxTable .time {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+td .CurrencySign {
+    color: #888;
+}
+.RefCell {
+    max-width: 15em;
+    word-wrap: break-word;
+}
+
+.ExplainFormField {
+    color: #888;
+    margin: 10px 14px;
+    font-size: 0.85rem;
+}
+
+.form-control {
+    font-weight: bold;
+}
+
+.ScrollToId {
+    position: relative;
+    top: -70px;
+}
+
+.react-bootstrap-daterangepicker-container {
+    display: block;
+}

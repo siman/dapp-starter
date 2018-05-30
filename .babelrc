@@ -1,0 +1,4 @@
+{
+  'presets': ['es2015', 'stage-3', 'react'],
+  'plugins': ['lodash', 'transform-decorators-legacy', 'react-html-attrs', 'transform-class-properties', 'transform-object-rest-spread']
+}

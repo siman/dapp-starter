@@ -1,0 +1,89 @@
+/* Mobile */
+@media screen and (max-width: 399px) {
+    .ShowOnDesk {
+        display: none;
+    }
+}
+@media screen and (max-width: 549px) {
+    .ShowOnDesk {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .ShowOnDesk {
+        display: none;
+    }
+}
+
+/* Medium desktops */
+@media screen and (max-width: 991px) {
+    .ShowOnDesk {
+        display: none;
+    }
+}
+@media screen and (max-width: 1199px) {}
+
+/*-----------------------------------------------------------------------------*/
+/* Main queries. By default everything treated as on mobile. */
+
+/* Larger than mobile */
+@media screen and (min-width: 400px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+
+/* Larger than phablet */
+@media screen and (min-width: 550px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    html, body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .ShowOnMobile {
+        display: none;
+    }
+    #LogoType {
+        font-size: 32px;
+    }
+}
+
+/* Large devices (HD desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+/* Horizontal mobile */
+@media screen and (max-height: 399px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+
+/* Bigger than horizontal mobile */
+@media screen and (min-height: 400px) {
+
+}
